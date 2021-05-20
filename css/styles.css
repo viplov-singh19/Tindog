@@ -1,0 +1,160 @@
+body{
+      font-family: "Montserrat-Black";
+}
+#title{
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: center;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+p{
+  text-align: center;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.btnDownload{
+  margin: 3% 5% 5% 0;
+}
+.title-img{
+  margin-left: 60px;
+  width:17%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+@media (max-width :997px) {
+  #title{
+    text-align: center;
+  }
+.title-img  {
+    position: static;
+  transform: rotate(0);
+  width: 50%
+}
+}
+#features{
+  padding: 5% 15%;
+  position :relative;
+  z-index: 1;
+  background-color: white;
+}
+p {
+  color: #8f8f8f;
+}
+.img-mid{
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+.img-mid:hover{
+  color:  #ff4c68;
+}
+.mid{
+  text-align: center;
+  padding: 5%;
+}
+.mid-heading{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
+
+#testimonials{
+  /* padding: 7% 25%; */
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+padding: 7% 10% 5% 10%;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  padding: 3% 2%;
+  text-align: center;
+
+}
+
+
+#cta{
+    margin-top: 50px;
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+
+}
+
+.cta-h3{
+padding: 2% 25% 0.5% 25%;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+}
+.btnnDownload{
+  margin: 3% 2% 5% 0;
+}
+
+#footer{
+  padding: 100px 10px;
+  text-align: center;
+}
+.foot-img{
+  padding: 0px 10px 5px 10px;
+}
